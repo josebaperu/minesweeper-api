@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    banner-mode: "off"
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
+logging:
+  level:
+    org:
+      springframework: ERROR
+
+
